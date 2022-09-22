@@ -1,0 +1,18 @@
+.DS_Store
+node_modules
+coverage
+tests
+README.md
+notes.md
+jest.config.js
+
+# Editor directories and files
+.editorconfig
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.log

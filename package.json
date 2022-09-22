@@ -1,0 +1,33 @@
+{
+  "name": "@inion/common",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "@types/urijs": "^1.19.19",
+    "@types/uuid": "^8.3.4",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "error-stack-parser": "^2.1.4",
+    "evilscan": "^1.9.1",
+    "get-ip-addresses": "^1.1.0",
+    "portscanner": "^2.2.0",
+    "reflect-metadata": "^0.1.13",
+    "ts-transformer-keys": "^0.4.3",
+    "uri-js": "^4.4.1",
+    "uuid": "^8.3.2"
+  }
+}
